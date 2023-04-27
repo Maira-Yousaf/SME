@@ -1,0 +1,56 @@
+<h1>Register Now</h1>
+<form #regfrom="ngForm" (ngSubmit)="getData(regfrom.value)">
+   <div class="main-form">
+        <div class="Formname">
+            <div class="first">
+                <label>First Name</label><br>
+                <input type="text" name="Fname" ngModel>
+            </div>
+
+            <div class="last">
+                <label>Last Name</label><br>
+                <input type="text" name="Lname" ngModel>
+            </div> 
+            <br>
+        </div>
+        <div>
+            <label>Enter Email</label><br>
+            <input type="email" name="email" ngModel>
+            <br>
+        </div>
+        <div>
+            <label>Password</label><br>
+            <input type="password" name="password" ngModel>
+            <br>
+        </div>
+        <div>
+            <label>Confirm Password</label><br>
+            <input type="password" name="conpassword" ngModel>
+        </div>
+   </div>
+   <div class="radiobtn">
+            <div style="display: flex;">
+                <input type="radio" ngModel id="male" name="male-option">    
+                <label for="male">Male</label><br>
+                 
+            </div>
+             <div style="display: flex;">
+                <input type="radio" id="female" ngModel name="female-option">
+                  <label for="female">Female</label><br>
+            </div>
+    </div>
+    <div class="terms">
+        <input class="terms-conditions" type="checkbox" id="terms-conditions" ngModel name="terms">
+        <label style="margin-left: 8px;" for="terms-conditions">  By clicking Register Now you agree to our<span style="color:#FB406C"> terms and conditions</span></label><br>
+    </div>
+    <button class="registerbtn">Register</button>
+</form>
+
+     <hr class="hr-text" data-content="OR">
+     <br>
+     <div class="btn">
+        <button class="fb-btn"> <img src="/assets/img/facebook_icon.png"> Login with Facebook</button>
+        <button class="g-btn"> <img src="/assets/img/Vector.png"> Login with Google</button>
+     </div>
+     <br>
+<p style="margin-left: 40px; text-align: center;">Already Member? <span style="color:#FB406C"><a>Login here</a></span></p>

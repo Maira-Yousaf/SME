@@ -1,0 +1,112 @@
+.active-link{
+    font-weight: bold;
+}
+#loginbutton{
+    background: #FB406C;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 8px;
+    color: white;
+}
+#loginbutton img{
+    margin-right: 6px;
+}
+nav{
+    margin: 30px;
+    
+}
+#navbarNav{
+    justify-content: end;
+
+}
+#navbarNav ul{
+
+    gap: 20px;
+    font-size: 16px;
+    justify-content: end;
+
+}
+@media only screen and (min-width:1400px){
+
+    nav{
+        margin: 50px;
+    }
+    #navbarNav ul{
+
+        gap: 20px;
+        font-size: 16px;
+    }
+    nav{
+        margin: 50px 0px 50px 30px;
+        padding: 0;
+        min-width: 1400px;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+
+    nav{
+        margin: 10px;
+    }
+    #navbarNav ul{
+        gap: 4px;
+        margin-left: 3px !important;
+        font-size: 14px;
+    }
+    nav{
+        margin: 20px 0px 30px 11px;
+        padding: 0;
+        min-width: 1200px;
+    }
+    #loginbutton{
+        margin-left: 4px;
+        padding: 5px;
+    }
+
+}
+@media only screen and (max-width:1024px){
+    nav{
+        margin: 8px;
+    }
+    #navbarNav ul{
+        gap: 2px;
+        /* margin-left: 3px !important; */
+        font-size: 12px;
+    }
+    nav{
+        margin: 20px 0px 30px 11px;
+        padding: 0;
+    }
+    #loginbutton{
+        margin-left: 4px;
+        padding: 5px;
+    }
+  }
+  @media only screen and (max-width:980px) {
+
+    #navbarNav{
+        margin-top: 15px;
+        margin-left: 16px;
+    }
+    #loginbutton{
+        margin-right: 800px;
+
+    }
+    
+  }
+
+
+/* @media only screen and (max-width:360px){
+   #navbarNav{
+    padding: 0px 10px 0px 15px;
+}
+#navbarNav li{
+    font-size: 16px;
+    padding: 5px;
+}
+.loginbutton{
+    padding: 10px;
+    width: 150px;
+} 
+} */

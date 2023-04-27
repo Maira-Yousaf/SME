@@ -1,0 +1,87 @@
+.footer{
+    margin:  80px 30px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-size: 13px;
+    font-weight: 400;
+}
+.nav li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+.logo{
+    padding: 30px;
+}
+.copyright{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(61, 61, 61, 0.5);
+    width: 426.08px;
+    height: 17px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.socail-icon{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 20px;
+    margin-top: -20px;
+    margin-right: 0px;
+}
+.socail-icon a{
+    width: 40px;
+    height: 40px;
+    background: #FB406C;
+    border-radius: 20px;
+}
+.fb{
+    margin-left:15px;
+    margin-top: 10px;
+}
+.utube{
+    margin-left:12px;
+    margin-top: 9px;
+}
+.insta{
+    margin-left:13px;
+    margin-top: 11px;
+}
+.whatsapp{
+    margin-left:13px;
+    margin-top: 11px;
+}
+.meetup{
+    margin-left:11px;
+    margin-top: 9px;
+}
+.container{
+    max-width: 1366px;
+}
+@media only screen and (max-width:1024px) {
+    .nav{
+        font-size: 13px;
+    }
+    .nav li{
+        margin: 8px;
+    }
+}
+@media only screen and (max-width:780px) {
+    /* .footer{
+       display: flex;
+       flex-direction: column;
+    } */
+    .nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        /* flex-flow: column wrap; */
+     }
+}
