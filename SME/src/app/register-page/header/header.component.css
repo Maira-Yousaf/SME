@@ -96,6 +96,13 @@ nav{
     
   }
 
+  @media only screen and (max-width:980px) {
+
+    #loginbutton{
+        width:110px;
+    }
+}
+
 
 /* @media only screen and (max-width:360px){
    #navbarNav{

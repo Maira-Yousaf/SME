@@ -149,13 +149,32 @@
         font-size: medium;
     }
 }
-@media only screen and (min-width:550px) {
+@media only screen and (max-width:550px) {
 
     .contact-section .contact{
         font-size: 30px !important;
     }
     .container{
-        display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .container div{
+        align-items: center;
+    }
+    .contact-section{
+        height: 489.78px;
+
+    }
+    .container .phone{
+        align-items: center;
+    }
+    .container .mail{
+        justify-content: center;
+    }
+    .container .add{
+        justify-content: center;
     }
 }

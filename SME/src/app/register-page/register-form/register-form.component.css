@@ -313,3 +313,82 @@ hr{
     padding: 0;
   }
 }
+@media only screen and (max-width:425px) {
+  .main-form{
+    margin: 0px;
+    padding: 0;
+  }
+  .main-form div{
+    margin-left: 8px;
+  }
+  .Formname .first input{
+    width: 166px;
+    height: 36.5px;
+  }
+  .Formname .first{
+    width: 216px;
+  }
+  .Formname .last input{
+    width: 166px;
+    height: 36.5px;
+  }
+  .Formname .last{
+    margin-left: -20px;
+  }
+  .main-form div{
+    width: auto;
+  }
+  .main-form{
+    width: 380px;
+  }
+  .main-form div input{
+    width: 366px;
+    height: 36.5px;
+  }
+  h1{
+    font-size: 26px;
+    margin-right: 96px;
+    font-weight: 500;
+    margin-left: -0;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .radiobtn{
+    margin: 0;
+    width: 400px;
+  }
+  .terms{
+    margin: 14px 0 0 0;
+    width: 469px;
+    font-size: 14.5px;  
+  }
+  .terms span{
+    display: block;
+  }
+  .terms label{
+    margin-top: 0px;
+  }
+  .registerbtn{
+    margin: 15px 14px;
+    width: 354px;
+  }
+  hr{
+    margin:0 20px 0 20px;
+  }
+  .btn{
+    margin-left: 0px;
+    padding: 0;
+    font-size: small;
+    padding: 0;
+  }
+  .fb-btn{
+    margin-right: 20px;
+    width: 190px;
+    padding: 0;
+  }
+  .g-btn{
+    width: 190px;
+    padding: 0;
+  }
+}

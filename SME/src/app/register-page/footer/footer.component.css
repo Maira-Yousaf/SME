@@ -85,3 +85,12 @@
         /* flex-flow: column wrap; */
      }
 }
+@media only screen and (min-width:550px){
+    .socail-icon{
+        justify-content: center;
+        margin-top: 32px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
