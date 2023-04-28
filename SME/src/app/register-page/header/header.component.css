@@ -102,6 +102,12 @@ nav{
         width:110px;
     }
 }
+@media only screen and (max-width:320px) {
+
+    .navbar-brand img{
+        margin-bottom: 17px;
+    }
+}
 
 
 /* @media only screen and (max-width:360px){
