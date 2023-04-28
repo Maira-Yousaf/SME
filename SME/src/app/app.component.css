@@ -36,6 +36,14 @@
     }
   }
 
+@media only screen and (max-width:320px){
+  .register-section{
+    width: 300px !important;
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+}
+
 @media only screen and (max-width:1200px){
     .register-section img{
         /* visibility: hidden; */

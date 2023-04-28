@@ -347,7 +347,7 @@ hr{
   }
   h1{
     font-size: 26px;
-    margin-right: 96px;
+    margin-right: 26px;
     font-weight: 500;
     margin-left: -0;
     padding-left: 0;
@@ -360,11 +360,14 @@ hr{
   }
   .terms{
     margin: 14px 0 0 0;
-    width: 469px;
+    width: 369px;
     font-size: 14.5px;  
   }
   .terms span{
     display: block;
+  }
+  .terms input{
+    margin-left: 20px;
   }
   .terms label{
     margin-top: 0px;
@@ -382,13 +385,122 @@ hr{
     font-size: small;
     padding: 0;
   }
+  .form-part{
+    width: 386px !important;
+  }
   .fb-btn{
-    margin-right: 20px;
-    width: 190px;
+    margin-right: 10px;
+    margin-left: 12px;
+    width: 172px;
     padding: 0;
   }
   .g-btn{
-    width: 190px;
+    width: 172px;
     padding: 0;
+  }
+
+}
+@media only screen and (max-width:320px) {
+  .main-form{
+    margin: 0px;
+    padding: 0;
+  }
+  .main-form div{
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  .Formname .first input{
+    width: 130px;
+    height: 33.5px;
+  }
+  .Formname .first{
+    width: 160px;
+    
+  }
+  .Formname .last input{
+    width: 140px;
+    height: 33.5px;
+  }
+  .Formname .last{
+    margin-left: -20px;
+  }
+  .main-form div{
+    width: auto;
+    margin-bottom: 0;
+  }
+  .main-form{
+    width: 300px;
+  }
+  .main-form div input{
+    width: 280px;
+    height: 33.5px;
+  }
+  h1{
+    font-size: 26px;
+    margin-right: 0px;
+    font-weight: 500;
+    margin-left: 45px;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .radiobtn{
+    margin: 0;
+    font-size: 12px;
+    width: 300px;
+  }
+  .terms{
+    margin: 14px 0 0 0;
+    width: 300px;
+    font-size: 12px;
+  }
+  .terms span{
+    display: block;
+    font-size: 12px;
+  }
+  .terms input{
+    margin-left: 20px;
+  }
+  .terms label{
+    margin-top: 0px;
+  }
+  .registerbtn{
+    margin: 17px 14px;
+    width: 266px;
+    font-size: 13px;
+  }
+  .radiobtn input{
+    width: 18px;
+    height: 14px;
+    margin-left: 16px;
+    margin-right: 3px;
+  }
+  hr{
+    margin:0 0px 0 20px;
+  }
+  .btn{
+    margin-left: 0px;
+    padding: 0;
+    font-size: small;
+    padding: 0;
+    flex-direction: column;
+    width: 300px;
+  }
+  .form-part{
+    width: 30px !important;
+  }
+  .fb-btn{
+    margin: 0px 0px 10px 64px;
+    width: 172px;
+    padding: 0;
+  }
+  .g-btn{
+    width: 172px;
+    margin: 0px 0px 10px 64px;
+    padding: 0;
+  }
+  .last-line{
+    font-size: 14px;
+    margin-left: 0 !important;
   }
 }

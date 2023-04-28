@@ -94,3 +94,29 @@
         text-align: center;
     }
 }
+@media only screen and (min-width:425px){
+    .socail-icon{
+        justify-content: center;
+        margin-top: 38px;
+    }
+    .copyright{
+        width: 326.08px;
+
+    }
+}
+@media only screen and (min-width:320px){
+    .socail-icon{
+        justify-content: center;
+        display: inline-flex;
+        margin-top: 40px;
+    }
+    .copyright{
+        width: 248px;
+    }
+    .container{
+        padding: 0;
+    }
+    .logo {
+        padding: 8px;
+    }
+}

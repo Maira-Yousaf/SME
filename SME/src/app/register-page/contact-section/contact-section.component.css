@@ -178,3 +178,29 @@
         justify-content: center;
     }
 }
+@media only screen and (max-width:425px){
+    .contact-section{
+        height: 555px;
+    }
+}
+@media only screen and (max-width:320px){
+    .container .call p{
+        font-size: 16px;
+    }
+    .num1{
+        width: auto;
+    }
+    .email1{
+        width: auto;
+    }
+    .add1{
+        width: auto;
+        margin: 0 15px;
+    }
+    .container .email p{
+        font-size: 16px;
+    }
+    .container .address p{
+        font-size: 16px;
+    }
+}
