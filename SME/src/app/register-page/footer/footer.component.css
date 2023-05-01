@@ -85,7 +85,7 @@
         /* flex-flow: column wrap; */
      }
 }
-@media only screen and (min-width:550px){
+@media only screen and (max-width:550px){
     .socail-icon{
         justify-content: center;
         margin-top: 32px;
@@ -94,7 +94,7 @@
         text-align: center;
     }
 }
-@media only screen and (min-width:425px){
+@media only screen and (max-width:425px){
     .socail-icon{
         justify-content: center;
         margin-top: 38px;
@@ -104,7 +104,7 @@
 
     }
 }
-@media only screen and (min-width:320px){
+@media only screen and (max-width:320px){
     .socail-icon{
         justify-content: center;
         display: inline-flex;
